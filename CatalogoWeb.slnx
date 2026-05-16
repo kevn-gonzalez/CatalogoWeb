@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../../TUP 2026/Programacion 3/CatalogoWeb/Dominio/ClasesArt.csproj" Id="ae1df131-bde2-455d-8edd-50cb6b6961bb" />
+  <Project Path="../../TUP 2026/Programacion 3/CatalogoWeb/Negocio/Negocio.csproj" Id="cc137471-ed00-4efe-a6be-0b23fb8e30a4" />
+  <Project Path="AppCatalogo/AppCatalogo.csproj" Id="35d0d009-78fd-4d56-a805-63bb4b55ed14" />
+</Solution>
