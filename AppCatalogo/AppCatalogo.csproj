@@ -67,26 +67,43 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Defoult.aspx" />
+    <Content Include="Detalles.aspx" />
+    <Content Include="ListaArticulos.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="PagPrincipal.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Catalogo.Master.cs">
       <DependentUpon>Catalogo.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Catalogo.Master.designer.cs">
       <DependentUpon>Catalogo.Master</DependentUpon>
     </Compile>
-    <Compile Include="Defoult.aspx.cs">
-      <DependentUpon>Defoult.aspx</DependentUpon>
+    <Compile Include="Detalles.aspx.cs">
+      <DependentUpon>Detalles.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Defoult.aspx.designer.cs">
-      <DependentUpon>Defoult.aspx</DependentUpon>
+    <Compile Include="Detalles.aspx.designer.cs">
+      <DependentUpon>Detalles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListaArticulos.aspx.cs">
+      <DependentUpon>ListaArticulos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListaArticulos.aspx.designer.cs">
+      <DependentUpon>ListaArticulos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="PagPrincipal.aspx.cs">
+      <DependentUpon>PagPrincipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagPrincipal.aspx.designer.cs">
+      <DependentUpon>PagPrincipal.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -103,6 +120,16 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\TUP 2026\Programacion 3\CatalogoWeb\Dominio\ClasesArt.csproj">
+      <Project>{ae1df131-bde2-455d-8edd-50cb6b6961bb}</Project>
+      <Name>ClasesArt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\TUP 2026\Programacion 3\CatalogoWeb\Negocio\Negocio.csproj">
+      <Project>{cc137471-ed00-4efe-a6be-0b23fb8e30a4}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

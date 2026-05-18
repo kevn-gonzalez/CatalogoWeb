@@ -11,7 +11,7 @@ namespace AppCatalogo
 {
 
 
-    public partial class Defoult
+    public partial class Detalles
     {
     }
 }
